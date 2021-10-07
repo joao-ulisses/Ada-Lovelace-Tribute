@@ -1,64 +1,37 @@
 #image {
     width: 100%;
-    filter: blur(2px);
-    z-index: -1;
     border-color: #c3c1d7;
     border-width: 4px;
     border-style: solid;
     border-radius: 9px;
-    }
-    
-    .grid {
-    box-shadow: 0 10px 20px purple, 0 6px 6px purple;
-    background-color: #262626;
-    border-color: #0d0d0d;
-    border-width: 4px;
-    border-style: solid;
-    border-radius: 9px;
-    padding: 10px;
-    color: #e6e6e6;
-    }
-    
-    #img-div {
-        position: relative;
-          text-align: center;
-    }
-    
-    #title {
-    font-family: 'Oswald', sans-serif;
-    }
-    
-    #subtitle {
-    font-family: 'Oswald', sans-serif;
-    }
-    
-    #info-title {
-    font-family: 'Oswald', sans-serif;
-    }
-    
-    #source-title {
-    font-family: 'Oswald', sans-serif;
-    }
-    
-    #source-subtitle {
-    font-family: 'Oswald', sans-serif;
-    }
-    
-    /*
-    #title {
-      position: absolute;
-      top: 10%;
-      transform: translate(-150%, 20%);
-      z-index: 1;
-        color: blue;
-    }
-    
-    #subtitle {
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 1;
-        color: blue;
-    }*/
-    
+    text-align: center;
+}
+
+.content-box {
+  box-shadow: 0 10px 20px purple, 0 6px 6px purple;
+  background-color: #262626;
+  border-color: #0d0d0d;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 9px;
+  padding: 10px;
+  color: #e6e6e6;
+}
+ 
+.font-oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+#more a {
+  text-decoration: none;
+  color: #a8a8a8;
+}
+
+#more a:hover {
+  text-decoration: underline;
+}
+
+#img-div {
+  position: relative;
+  text-align: center;
+}
