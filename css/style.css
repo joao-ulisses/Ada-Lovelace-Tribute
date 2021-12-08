@@ -1,6 +1,6 @@
 #image {
     width: 100%;
-    border-color: #c3c1d7;
+    border-color: #5e5d68;
     border-width: 4px;
     border-style: solid;
     border-radius: 9px;
@@ -8,23 +8,38 @@
 }
 
 .content-box {
-  box-shadow: 0 10px 20px purple, 0 6px 6px purple;
+  box-shadow: 0 10px 20px #cb65cb, 0 6px 6px #cb65cb;
   background-color: #262626;
   border-color: #0d0d0d;
   border-width: 4px;
   border-style: solid;
   border-radius: 9px;
-  padding: 10px;
+  padding: 3%;
   color: #e6e6e6;
+  margin: 10px;
+  margin-bottom: 30px;
 }
  
 .font-oswald {
   font-family: 'Oswald', sans-serif;
 }
 
+#info-title {
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+#text {
+  text-indent: 5%;
+}
+
 #more a {
   text-decoration: none;
   color: #a8a8a8;
+}
+
+#more li {
+  padding-bottom: 1%;
 }
 
 #more a:hover {
